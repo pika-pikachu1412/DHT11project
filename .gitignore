@@ -1,0 +1,18 @@
+# Ignore the virtual environment
+.venv/
+
+# Ignore IDE-specific files
+.idea/
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Ignore Python compiled files
+__pycache__/
+
+# Ignore static and media files (if not necessary for version control)
+static/
+staticfiles/
+
+# Ignore environment-specific config files (optional)
+*.env
