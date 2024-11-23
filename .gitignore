@@ -1,14 +1,18 @@
-# Ignore the virtual environment
+## Ignore the virtual environment
 .venv/
 
-# Ignore IDE-specific files
+# #Ignore IDE-specific files
 .idea/
+*.log
 
 # Ignore SQLite database file
 db.sqlite3
 
-# Ignore Python compiled files
+## Ignore Python compiled files
 __pycache__/
+
+
+## Ignore DHT Python compiled files
 DHT/__pycache__/
 
 # Ignore static and media files (if not necessary for version control)
@@ -18,7 +22,7 @@ staticfiles/
 # Ignore Django migrations
 DHT/migrations/
 
-# Ignore environment-specific config files (optional)
+## Ignore environment-specific config files (optional)
 *.env
 
 # Ignore files like migrations or compiled Python files within projet
