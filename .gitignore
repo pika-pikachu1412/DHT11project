@@ -9,10 +9,32 @@ db.sqlite3
 
 # Ignore Python compiled files
 __pycache__/
+DHT/__pycache__/
 
 # Ignore static and media files (if not necessary for version control)
 static/
 staticfiles/
 
+# Ignore Django migrations
+DHT/migrations/
+
 # Ignore environment-specific config files (optional)
 *.env
+
+# Ignore files like migrations or compiled Python files within projet
+projet/__pycache__/
+
+# Ignore main.py (if not needed)
+main.py
+
+# Ignore manage.py (if not needed)
+manage.py
+
+# Ignore README.md (if not needed)
+README.md
+
+# Ignore requirements.txt (if not needed)
+requirements.txt
+
+# Ignore monespace
+monespace/
