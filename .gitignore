@@ -38,3 +38,6 @@ requirements.txt
 
 # Ignore monespace
 monespace/
+
+#Ignore DHT/api.py for containing sensitive informations
+DHT/api.py
